@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "ml-docs"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "ml_docs"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.16.0"
+scikit-learn = "^1.2.0"
+matplotlib = "^3.6.2"
+pandas = "^1.5.2"
+numpy = "^1.24.0"
+
+
+[tool.poetry.group.dev.dependencies]
+autopep8 = "^2.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
